@@ -1,0 +1,25 @@
+# Algorithm Pseudo-code: Area of a Rectangle
+
+## Scenario 1: Fixed Values (Length=5, Width=3)
+
+```
+BEGIN
+    SET length TO 5
+    SET width TO 3
+    SET area TO length * width
+    PRINT "The area of the rectangle is: " + area
+END
+```
+
+## Scenario 2: User Input
+
+```
+BEGIN
+    PRINT "Enter the length of the rectangle: "
+    GET length
+    PRINT "Enter the width of the rectangle: "
+    GET width
+    SET area TO length * width
+    PRINT "The area of the rectangle is: " + area
+END
+```
